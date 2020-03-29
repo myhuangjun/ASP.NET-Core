@@ -1,2 +1,2 @@
 # ASP.NET-Core
-Get Some ASPNET Core Prohect
+Get Some ASPNET Core Project
