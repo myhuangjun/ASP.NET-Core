@@ -709,11 +709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\应用程序\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
+      "projectUniqueName": "F:\\应用程序\\GitHubCore\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
       "projectName": "CoreProject_01",
-      "projectPath": "F:\\应用程序\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
+      "projectPath": "F:\\应用程序\\GitHubCore\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\应用程序\\Project_01\\CoreProject_01\\obj\\",
+      "outputPath": "F:\\应用程序\\GitHubCore\\Project_01\\CoreProject_01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -732,8 +732,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\应用程序\\Project_01\\Common\\Common.csproj": {
-              "projectPath": "F:\\应用程序\\Project_01\\Common\\Common.csproj"
+            "F:\\应用程序\\GitHubCore\\Project_01\\Common\\Common.csproj": {
+              "projectPath": "F:\\应用程序\\GitHubCore\\Project_01\\Common\\Common.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj": {}
+    "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj": {}
   },
   "projects": {
-    "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj": {
+    "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
+        "projectUniqueName": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
         "projectName": "ASPNetCore",
-        "projectPath": "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
+        "projectPath": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "F:\\应用程序\\Project_01\\ASPNetCore\\obj\\",
+        "outputPath": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
+      "projectUniqueName": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
       "projectName": "ASPNetCore",
-      "projectPath": "F:\\应用程序\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
+      "projectPath": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\ASPNetCore.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\应用程序\\Project_01\\ASPNetCore\\obj\\",
+      "outputPath": "F:\\应用程序\\GitHubCore\\Project_01\\ASPNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

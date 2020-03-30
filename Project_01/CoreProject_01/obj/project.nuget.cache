@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUqeWXEjW/dOCgYEAYi+XuN0pFMbLrlFfG3nZls3WfE/uGgsK1ZwIkyFE1ABqSo0n6Qz1A5iJeK8f35rBFHVgw==",
+  "dgSpecHash": "U3i97ljeojXVMKJYyiFt7lHV4UbdOTQF9Km9b+bHbdad0STxzCpCMG+/P9TdtKj69paFrbaYl6YOsehnBZRMHg==",
   "success": true,
-  "projectFilePath": "F:\\应用程序\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
+  "projectFilePath": "F:\\应用程序\\GitHubCore\\Project_01\\CoreProject_01\\CoreProject_01.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
