@@ -53,14 +53,36 @@ namespace ASPNetCore
         //
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IMessageService service)
         {
-            service.Send();
+            //service.Send();
+            //中间件有两个职责:
+            //1.选择是否讲请求传递给管道中的下一个中间件 ---next
+            //2.在管道中的下一个中间件的前后执行工作
+            //app.Use(async (content, next) =>
+            //{
+            //    await content.Response.WriteAsync("Middleware 1 Begin \r\n");
+            //    await next();
+            //});
+            ////run方法是没有next的  中断中间件
+            ////专门用来短路的,一般放在最后面
+            //app.Run(async context=>
+            //{
+            //    await context.Response.WriteAsync("Hello Run \r\n");
+            //});
+            //如果是开发环境
             if (env.IsDevelopment())
             {
+                //开发人员异常页面中间件
                 app.UseDeveloperExceptionPage();
             }
+            //添加自定义中间件  版本1
+            //app.UseMiddleware<TestMiddleware>();
+            //app.UseTestMiddle();   //版本2
 
+            //终结点路由中间件
+            //ASP.NET Core 2.X里   没有这个
+            //ASP.NET Core 3.X 猜出来,都有对路由的需求,所以路由拆出来
             app.UseRouting();
-
+            //终结点中间件   配置中间件和路由之间的关系
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
