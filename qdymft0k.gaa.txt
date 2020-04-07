@@ -1,0 +1,15 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Project_01/.vs/Project_01/DesignTimeBuild/.dtbcache.v2
+#	modified:   Project_01/.vs/Project_01/v16/.suo
+#	new file:   Project_01/ASPNetCore/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+#	new file:   Project_01/ASPNetCore/bin/Debug/netcoreapp3.1/NLog.Web.AspNetCore.dll
+#	new file:   Project_01/ASPNetCore/bin/Debug/netcoreapp3.1/NLog.dll
+#	new file:   Project_01/ASPNetCore/obj/Debug/netcoreapp3.1/ASPNetCore.csproj.CopyComplete
+#
+
